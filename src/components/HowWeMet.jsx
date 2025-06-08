@@ -75,7 +75,7 @@ const HowWeMet = () => {
           <FaMusic /> Our Song
         </button>
         <audio ref={audioRef}>
-        <source src="/Perfect.mp3" type="audio/mpeg" />
+        <source src="./Perfect.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
         <div className="nav-buttons">

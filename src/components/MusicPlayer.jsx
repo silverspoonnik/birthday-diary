@@ -19,7 +19,7 @@ const MusicPlayer = () => {
       </button>
 
       <audio ref={audioRef}>
-        <source src="/converted_audio.mp3" type="audio/mpeg" />
+        <source src="./converted_audio.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
