@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #ffe6f0;
+}
+
+.carousel-image {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.carousel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* ⚠️ change from 'cover' to 'contain' */
+  border-radius: 16px;
+  background-color: white;
+}
+
+
+
+.how-we-met-wrapper {
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.back-btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  background: #ffd6e6;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.photo-upload-section, .story-section {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.photo-box {
+  border: 2px dashed hotpink;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.photo-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.choose-photo {
+  background: hotpink;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.story-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.story-box {
+  background: #ffe6f0;
+  padding: 20px;
+  border: 2px solid pink;
+  border-radius: 10px;
+  height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.footer-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.song-btn {
+  background: white;
+  border: 2px solid pink;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: hotpink;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  background: hotpink;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}

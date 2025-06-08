@@ -1,13 +1,108 @@
+/* src/index.css */
 body {
+  font-family: 'Patrick Hand', cursive;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: linear-gradient(135deg, #ffd1e8, #ffe6f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+ .cutieimg{
+        object-fit: cover;
+        width: 120px;
+        height: 200px;
+    }
+.container {
+  background: #ffe9f3;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.img-placeholder {
+  width: 120px;
+  margin: 20px auto;
+  background: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
 }
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h1 span {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.play-btn {
+  background: #fff;
+  color: #333;
+}
+
+.open-btn {
+  background: #ff4fa0;
+  color: white;
+}
+
+/* Floating animation */
+.float {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  opacity: 0.7;
+  animation: float 6s ease-in-out infinite;
+  z-index: 1;
+}
+
+.star {
+  background: url('https://cdn-icons-png.flaticon.com/512/1828/1828884.png') no-repeat center/contain;
+}
+
+.heart {
+  background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat center/contain;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+.float1 { top: 5%; left: 10%; animation-delay: 0s; }
+.float2 { top: 10%; right: 15%; animation-delay: 1s; }
+.float3 { bottom: 10%; left: 20%; animation-delay: 2s; }
+.float4 { bottom: 15%; right: 10%; animation-delay: 1.5s; }

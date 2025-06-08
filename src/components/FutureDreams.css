@@ -1,0 +1,118 @@
+.future-dreams-container {
+  background-color: #ffe6f0;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.future-dreams-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.future-dreams-left,
+.future-dreams-right {
+  flex: 1;
+  min-width: 300px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.future-image {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.future-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.future-item {
+  background-color: #ffd6e8;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.future-item .icon {
+  font-size: 1.5rem;
+  color: #ff69b4;
+  margin-top: 4px;
+}
+
+.upload-section {
+  border: 2px dashed #ff69b4;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centers the button horizontally */
+  justify-content: center;
+}
+
+.upload-icon {
+  font-size: 3rem;
+  color: #ff69b4;
+  margin-bottom: 1rem;
+}
+
+.upload-btn {
+  margin-top: 1.5rem;
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.love-nav.future-nav {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-btn {
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.image-preview {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}

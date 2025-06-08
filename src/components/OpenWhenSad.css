@@ -1,0 +1,127 @@
+.open-sad-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #ffe6f0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  position: relative;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.open-sad-left {
+  width: 45%;
+}
+
+.open-sad-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.sad-img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin: 1rem 0;
+  background-color: #ccc;
+}
+
+.hug-message {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.hug-heart {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+}
+
+.hug-message h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.hug-message p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.open-sad-right {
+  width: 50%;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.open-sad-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.boosters-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.booster-card {
+  background: #ffd8e4;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booster-icon {
+  font-size: 2rem;
+  color: hotpink;
+  margin-bottom: 0.5rem;
+}
+
+.booster-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.booster-card p {
+  font-size: 0.95rem;
+}
+
+.sad-nav {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.nav-btn {
+  background: #ff80aa;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s;
+}
+
+.nav-btn:hover {
+  background: #ff4d88;
+}
